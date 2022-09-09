@@ -37,13 +37,13 @@ body .swiper-pagination {
   display: none;
 }
 
-.swiper-arrow .button-prev {
+.swiper-arrow.button-next {
   position: absolute;
   right: auto;
   top: 45%;
   z-index: 10;
 }
-.swiper-arrow .button-prev {
+.swiper-arrow.button-prev {
   position: absolute;
   left: auto;
   top: 45%;
