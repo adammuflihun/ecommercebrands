@@ -31,3 +31,7 @@ body .swiper-pagination {
   position: relative;
   bottom: 0px !important;
 }
+
+.swiper-scrollbar {
+  display: none;
+}
