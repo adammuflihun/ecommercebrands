@@ -25,8 +25,11 @@ window.Webflow.push(() => {
     breakpoints: {
       // when window width is >= 480px
       480: {
-        slidesPerView: 1,
-        spaceBetween: 0,
+        slidesPerView: 1.5,
+        spaceBetween: 25,
+        slidesPerGroup: 1,
+
+        centeredSlides: true,
       },
       // when window width is >= 768px
       768: {
