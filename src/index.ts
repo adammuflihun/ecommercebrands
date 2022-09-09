@@ -29,8 +29,7 @@ window.Webflow.push(() => {
     loop: true,
     slidesPerView: 1,
     slidesPerGroup: 1,
-    spaceBetween: 20,
-    // loop: false,
+
     centeredSlides: false,
     mousewheel: {
       forceToAxis: true,
@@ -40,19 +39,24 @@ window.Webflow.push(() => {
 
     breakpoints: {
       // when window width is >= 480px
-      480: {
-        slidesPerView: 1.25,
-        spaceBetween: 5,
+      380: {
+        slidesPerView: 1.2,
+        spaceBetween: 20,
         slidesPerGroup: 1,
-        centeredSlides: false,
+        centeredSlides: true,
+        mousewheel: {
+          forceToAxis: false,
+        },
       },
       // when window width is >= 768px
       768: {
-        slidesPerView: 2,
+        slidesPerView: 1.2,
+        spaceBetween: 10,
       },
       // when window width is >= 992px
       992: {
         slidesPerView: 3,
+        spaceBetween: 20,
       },
     },
 
