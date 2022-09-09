@@ -37,14 +37,14 @@ window.Webflow.push(() => {
     },
     speed: 300,
     // Responsive breakpoints
+
     breakpoints: {
       // when window width is >= 480px
       480: {
-        slidesPerView: 1.5,
-        spaceBetween: 25,
+        slidesPerView: 1.25,
+        spaceBetween: 5,
         slidesPerGroup: 1,
-
-        centeredSlides: true,
+        centeredSlides: false,
       },
       // when window width is >= 768px
       768: {
