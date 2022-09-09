@@ -2,6 +2,21 @@ import Swiper from 'swiper/bundle';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
+  var head = document.getElementsByTagName('HEAD')[0];
+
+  // Create new link Element
+  var link = document.createElement('link');
+
+  // set the attributes for link element
+  link.rel = 'stylesheet';
+
+  link.type = 'text/css';
+
+  link.href = 'http://localhost:3000/swiperhome.css';
+
+  // Append link element to HTML head
+  head.appendChild(link);
+
   $('.swiper').append(`<div class="swiper-scrollbar"></div>`);
   $('.swiper').append(`<div class="swiper-pagination"></div>`);
   $('.swiper').append(`<div class="swiper-arrow button-prev"></div>`);

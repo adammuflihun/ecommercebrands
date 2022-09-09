@@ -39,13 +39,19 @@ body .swiper-pagination {
 
 .swiper-arrow.button-next {
   position: absolute;
-  right: auto;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  right: 0;
   top: 45%;
   z-index: 10;
 }
 .swiper-arrow.button-prev {
   position: absolute;
   left: auto;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
   top: 45%;
   z-index: 10;
 }
