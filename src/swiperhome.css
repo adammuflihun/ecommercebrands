@@ -57,6 +57,10 @@ body .swiper-pagination {
 }
 
 @media screen and (max-width: 480px) {
+  .posts__link {
+    min-height: 30rem;
+    max-height: 30rem;
+  }
   .swiper-arrow.button-next {
     position: absolute;
     height: 4rem;
