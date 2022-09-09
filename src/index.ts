@@ -26,6 +26,7 @@ window.Webflow.push(() => {
       // when window width is >= 480px
       480: {
         slidesPerView: 1,
+        spaceBetween: 0,
       },
       // when window width is >= 768px
       768: {
