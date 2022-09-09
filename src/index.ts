@@ -8,11 +8,11 @@ window.Webflow.push(() => {
   $('.swiper').append(`<div class="swiper-arrow button-next"></div>`);
   console.log('jos');
 
-  const swiper1 = new Swiper('.swiper1', {
+  const swiper1 = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 4,
     slidesPerGroup: 1,
     spaceBetween: 20,
     centeredSlides: false,
