@@ -2,19 +2,20 @@ import Swiper from 'swiper';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  // $('.swiper').append(`<div class="swiper-scrollbar"></div>`);
+  $('.swiper').append(`<div class="swiper-scrollbar"></div>`);
   $('.swiper').append(`<div class="swiper-pagination"></div>`);
   $('.swiper').append(`<div class="swiper-arrow button-prev"></div>`);
   $('.swiper').append(`<div class="swiper-arrow button-next"></div>`);
   console.log('jos');
 
-  const swiper1 = new Swiper('.swiper', {
+  const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 4,
+    slidesPerView: 1,
     slidesPerGroup: 1,
     spaceBetween: 20,
+    // loop: false,
     centeredSlides: false,
     mousewheel: {
       forceToAxis: true,
@@ -49,9 +50,9 @@ window.Webflow.push(() => {
     },
 
     // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    //   draggable: true,
-    // },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
   });
 });
