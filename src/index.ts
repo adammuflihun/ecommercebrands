@@ -2,7 +2,7 @@ import Swiper from 'swiper';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  $('.swiper').append(`<div class="swiper-scrollbar"></div>`);
+  // $('.swiper').append(`<div class="swiper-scrollbar"></div>`);
   $('.swiper').append(`<div class="swiper-pagination"></div>`);
   $('.swiper').append(`<div class="swiper-arrow button-prev"></div>`);
   $('.swiper').append(`<div class="swiper-arrow button-next"></div>`);
@@ -49,9 +49,9 @@ window.Webflow.push(() => {
     },
 
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      draggable: true,
-    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    //   draggable: true,
+    // },
   });
 });
